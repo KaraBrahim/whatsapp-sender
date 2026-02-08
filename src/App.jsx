@@ -4,7 +4,6 @@ import CsvEditor from './components/CsvEditor';
 import Sender from './components/Sender';
 import { Button, Input, cn } from './components/ui/BaseComponents';
 
-// Simple Modal Component
 const Modal = ({ isOpen, title, onClose, children }) => {
   if (!isOpen) return null;
   return (
